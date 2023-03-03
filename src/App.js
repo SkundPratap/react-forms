@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Forms1 from './components/form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="reactforms">
+      <h1> React form with validation, controlled components and two way data binding </h1>
+      <Forms1/>
     </div>
   );
 }
